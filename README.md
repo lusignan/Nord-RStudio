@@ -3,7 +3,7 @@ An arctic, north-bluish clean and elegant RStudio theme.
 
 This theme is an unofficial port of [Arctic Ice Studio's](https://github.com/arcticicestudio/nord) [Nord theme](https://www.nordtheme.com) for RStudio.
 
-![Example](https://github.com/lusignan/Nord-RStudio/blob/master/Nord%20theme.png?raw=true)
+![Preview](https://github.com/lusignan/Nord-RStudio/blob/master/Preview.png?raw=true)
 
 ![Menu](https://github.com/lusignan/Nord-RStudio/blob/master/Menu.png?raw=true)
 
