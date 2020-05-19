@@ -46,11 +46,11 @@ rs-theme-is-dark: TRUE
   background: #434C5E;
 }
 
-/* ??? */
+/* Markdown Code Blocks */
 .ace_marker-layer .ace_foreign_line {
   position: absolute;
   z-index: -1;
-  background-color: #D08770;
+  background-color: #2E3440;
 }
 
 /* Debugline */
