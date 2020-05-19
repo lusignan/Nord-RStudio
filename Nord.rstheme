@@ -693,8 +693,7 @@ div .gwt-Label.GD15MCFCF3 {
 
 /* color and style in MD */
 .ace_heading {
-     color: #D8DEE9;
-     font-weight: 900;
+     color: #5E81AC;
 }
 
 /* color and style of meta tags in MD */
