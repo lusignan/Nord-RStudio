@@ -345,7 +345,7 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAAW
 }
 
 .ace_invisible {
-  color: #233629;
+  color: #3B4252;
 }
 
 /* caption at the top of the dialog boxes like the options pane*/
@@ -770,7 +770,7 @@ div .gwt-Label.GD15MCFCF3 {
 
 .terminal.xterm-cursor-style-block.focus:not(.xterm-cursor-blink-on) .terminal-cursor {
   background-color: #D8DEE9;
-  color: #233629;
+  color: #3B4252;
 }
 .terminal.focus.xterm-cursor-style-bar:not(.xterm-cursor-blink-on) .terminal-cursor::before,
 .terminal.focus.xterm-cursor-style-underline:not(.xterm-cursor-blink-on) .terminal-cursor::before {
@@ -807,9 +807,9 @@ div .gwt-Label.GD15MCFCF3 {
    z-index: 1;
 }
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete {
-   background: #233629;
+   background: #3B4252;
    /* border: solid 1px #4C566A !important; */
-   border: solid 1px #3B4252 !important;
+   border: solid 1px #4C566A !important;
    color: #ECEFF4;
 }
 
@@ -957,7 +957,7 @@ span.ace_paren.ace_keyword.ace_operator {
 
 .rstudio-themes-flat.rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-thumb, .rstudio-themes-flat.rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
-    background: #6A6C6D;
+    background: #D8DEE9;
     border: solid 4px #2E3440;
 }
 
