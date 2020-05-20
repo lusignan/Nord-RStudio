@@ -523,6 +523,7 @@ button.gwt-Button.GD15MCFCH1.GD15MCFCETC {
     filter: invert(90%);
 }
 
+/*Options menu pane*/
 .dialogMiddleCenter {
   background: #434C5E !important;
   color: #ECEFF4;
@@ -532,6 +533,7 @@ button.gwt-Button.GD15MCFCH1.GD15MCFCETC {
     color: #ECEFF4;
 }
 
+/*Dropdown menus in options menu*/
 select {
     font-size: 11px;
     text-indent: 0.1em;
@@ -554,7 +556,7 @@ table.GD15MCFCI2.GD15MCFCF2, select.gwt-ListBox.GD15MCFCNCB, .gwt-TextBox, input
   border-color: #4C566A !important;
 }
 
-/*selected sidebar (done!)*/
+/*selected sidebar*/
 table.GD15MCFCFK.GD15MCFCLJ, .GD15MCFCJ2.GD15MCFCNQ.GD15MCFCE2 {
   background: #2E3440 !important;
 }
@@ -571,6 +573,7 @@ table.GD15MCFCFK.GD15MCFCLJ, .GD15MCFCJ2.GD15MCFCNQ.GD15MCFCE2 {
   border-radius: 3px;
 }
 
+/*Background for most of the options windows*/
 .GD15MCFCGP .gwt-TabLayoutPanelContentContainer, .GD15MCFCOID, .GD15MCFCNLD {
     background: #434C5E !important;
     border: 1px solid #3B4252;
@@ -611,7 +614,7 @@ div.gwt-TabLayoutPanelTab.GD15MCFCH .gwt-Label {
   color: #E5E9F0 !important;
 }
 
-/*Some buttons in the options pane*/
+/*Buttons in the options pane*/
 .rstudio-themes-flat button.gwt-Button-DialogAction>table:first-child, .rstudio-themes-flat button.GD15MCFCB1>table:first-child, .rstudio-themes-flat button.GD15MCFCH1>table:first-child, button.GD15MCFCB1 table tbody {
     border-radius: 3px !important;
     background: #3B4252 !important;
@@ -628,7 +631,7 @@ iframe.gwt-Frame {
     color: #ECEFF4 !important;
 }
 
-
+/*Background in the pane layout window*/
 .GD15MCFCBMB td.GD15MCFCBMB {
   background: #434C5E;
   border: 1px solid #3B4252;
