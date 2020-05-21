@@ -400,9 +400,9 @@ label[for="gwt-uid-54"]{
   color: #ECEFF4;
 }
 
-/*Git popup*/
+/*Addins and workspace dropdown menu*/
 .popupMiddleCenterInner.popupContent {
-  background-color: rgba(35, 38, 41, .5);
+  background-color: #2E3440;
   color: #ECEFF4;
   border-radius: 3px 3px 3px 3px !important;
 }
@@ -482,7 +482,7 @@ td.GD15MCFCHNC.GD15MCFCJNC, .GD15MCFCJOC {
 /* deletion text */
 .GD15MCFCCPC {
   color: #BF616A;
-  background-color: #BF616A
+  background-color: #3B4252
 }
 
 /* selected addition slash deletion which was clicked away from */
@@ -585,7 +585,6 @@ table.GD15MCFCFK.GD15MCFCLJ, .GD15MCFCJ2.GD15MCFCNQ.GD15MCFCE2 {
   color: #ECEFF4;
 }
 
-
 /*selected button at top of options dialog*/
 .gwt-TabLayoutPanelTab.GD15MCFCH.gwt-TabLayoutPanelTab-selected, table.GD15MCFCJW.GD15MCFCLW {
     background: #2E3440 !important;
@@ -679,7 +678,7 @@ div .gwt-Label.GD15MCFCF3 {
   color: #ECEFF4 !important;
 }
 
-/* TRUE, FALSE */
+/* Logical, ie TRUE, FALSE */
 .ace_constant.ace_language {
   color: #8FBCBB;
 }
@@ -757,7 +756,8 @@ div .gwt-Label.GD15MCFCF3 {
 }
 
 .ace_console_error {
-  background-color: #444444;
+  background-color: #2E3440;
+  color: #BF616A
 }
 
 .terminal {
@@ -825,7 +825,7 @@ div .gwt-Label.GD15MCFCF3 {
   background: #434C5E;
 }
 
-/* your commit is ahead of master notification */
+/* Background for debug location warning banner */
 .GD15MCFCB2C, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCB2C {
   background-color: #EBCB8B !important;
 }
@@ -913,12 +913,12 @@ span.ace_paren.ace_keyword.ace_operator {
   color: #3B4252;
 }
 
-/* file heirearchy in files tab */
+/* file hierarchy in files tab */
 .GD15MCFCJI-filepane a.gwt-Anchor.GD15MCFCNQ {
   color: #ECEFF4 !important;
 }
 
-/* file heirearchy in files tab */
+/* file hierarchy in files tab */
 .GD15MCFCJI-filepane a.gwt-Anchor.GD15MCFCNQ:hover {
   text-decoration: underline;
 }
