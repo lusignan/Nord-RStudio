@@ -50,7 +50,7 @@ rs-theme-is-dark: TRUE
 .ace_marker-layer .ace_foreign_line {
   position: absolute;
   z-index: -1;
-  background-color: #2E3440;
+  background-color: #3B4252;
 }
 
 /* Debugline */
