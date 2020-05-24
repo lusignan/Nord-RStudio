@@ -269,7 +269,7 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAAW
 /* Search panes */
 .rstudio-themes-flat.rstudio-themes-dark-menus .search, .rstudio-themes-flat .rstudio-themes-dark .search, .dialogMiddleCenter .search, input {
     border-radius: 4px;
-    background: #434C5E;
+    background: #4C566A;
     border-color: #434C5E;
 }
 
@@ -286,8 +286,8 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAAW
 /* Search pane on focus*/
 .rstudio-themes-flat.rstudio-themes-dark-menus .search:focus-within, .rstudio-themes-flat .rstudio-themes-dark .search:focus-within {
     border-radius: 4px;
-    background: #434C5E;
-    border-color: #E5E9F0;
+    background: #3B4252;
+    border-color: #88C0D0;
 }
 
 .ace_gutter-active-line {
@@ -558,7 +558,8 @@ table.GD15MCFCI2.GD15MCFCF2, select.gwt-ListBox.GD15MCFCNCB, .gwt-TextBox, input
 
 /*selected sidebar*/
 table.GD15MCFCFK.GD15MCFCLJ, .GD15MCFCJ2.GD15MCFCNQ.GD15MCFCE2 {
-  background: #2E3440 !important;
+  background: #4C566A !important;
+  color: #E5E9F0 !important;
 }
 
 /*markdown creation pane info caption*/
@@ -644,7 +645,7 @@ iframe.gwt-Frame {
 
 /*hyperlinks at the bottom of some of the settings and in R Help and file links in commit page */
 .rstudio-HyperlinkLabel, gwt-Anchor {
-  color: #E5E9F0 !important
+  color: #88C0D0 !important
 }
 
 a.gwt-Anchor.GD15MCFCNQ {
@@ -709,7 +710,7 @@ div .gwt-Label.GD15MCFCF3 {
 
 /* ??? */
 .ace_support.ace_type {
-  color: #8FBCBB;
+  color: #EBCB8B;
 }
 
 .ace_support.ace_function {
@@ -851,10 +852,10 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAYAAAAAwr0iAAABh
     border: 2px solid #434C5E !important;
 }
 
-/*Miscellanious borders slash outlines around the main screen*/
+/*Borders around windows and buttons of main screen*/
 /* Editor outline! */
 .rstudio-themes-flat .rstudio-themes-dark-grey .rstudio-themes-border, .rstudio-themes-flat .rstudio-themes-dark-grey table.GD15MCFCOQ>tbody>tr>td, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCKV>div:last-child, .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_secondaryToolbar, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanel>div>div.gwt-TabLayoutPanelTabs, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs table.rstheme_tabLayoutCenter, .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_minimizedWindowObject table.rstheme_tabLayoutCenter {
-  border-color: #434C5E
+  border-color: #4C566A
 }
 
 .rstudio-themes-flat .rstudio-themes-dark-grey td.GD15MCFCHXB, .rstudio-themes-flat .rstudio-themes-dark-grey td.GD15MCFCFXB, .rstudio-themes-flat .rstudio-themes-dark-grey td.GD15MCFCLXB, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCEXB, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCAXB {
