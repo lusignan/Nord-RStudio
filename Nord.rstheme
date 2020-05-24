@@ -558,8 +558,8 @@ table.GD15MCFCI2.GD15MCFCF2, select.gwt-ListBox.GD15MCFCNCB, .gwt-TextBox, input
 
 /*selected sidebar*/
 table.GD15MCFCFK.GD15MCFCLJ, .GD15MCFCJ2.GD15MCFCNQ.GD15MCFCE2 {
-  background: #4C566A !important;
-  color: #E5E9F0 !important;
+  background: #2E3440 !important;
+  color: #ECEFF4 !important;
 }
 
 /*markdown creation pane info caption*/
