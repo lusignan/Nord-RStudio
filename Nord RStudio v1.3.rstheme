@@ -1,0 +1,1094 @@
+/* rs-theme-name: Nord*/
+rs-theme-is-dark: TRUE
+
+/* sidebar */
+.ace_gutter {
+  background: #2E3440;
+  background-color: #2E3440;
+  color: #4C566A;
+}
+
+.ace_gutter-layer {
+  background: #2E3440;
+  color: #4C566A;
+}
+
+/* ??? */
+.ace_print-margin {
+  width: 1px;
+  background: #2E3440;
+}
+
+/* Selection1 */
+.ace_marker-layer .ace_selection {
+  background: #434C5E;
+}
+
+/* Selection2 */
+.ace_marker-layer .ace_selected-word {
+  border: 1px solid #434C5E;
+}
+
+/* ??? */
+.ace_marker-layer .ace_step {
+  background: #434C5E;
+}
+
+/* color of matching brackets */
+.ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid #434C5E;
+  border-radius: 3px !important;
+}
+
+/* active line */
+.ace_marker-layer .ace_active-line {
+  background: #434C5E;
+}
+
+/* Markdown Code Blocks */
+.ace_marker-layer .ace_foreign_line {
+  position: absolute;
+  z-index: -1;
+  background-color: #3B4252;
+}
+
+/* Debugline */
+.ace_marker-layer .ace_active_debug_line {
+  position: absolute;
+  z-index: -1;
+  background-color: #BF616A;
+}
+
+/* find line */
+.ace_marker-layer .ace_find_line {
+  position: absolute;
+  z-index: -1;
+  background-color: #88C0D0;
+}
+
+/* Highlighting currently selected lines */
+.ace_selection.ace_start {
+  color: #434C5E
+}
+
+/* matching brackets */
+.ace_bracket {
+  margin: 0 !important;
+  border: 0 !important;
+  background-color: #434C5E;
+}
+
+
+/* ace_keyword */
+.GD15MCFCEUB .ace_keyword {
+    color: #81A1C1; !important;
+}
+
+/* ??? */
+.gwt-DecoratedPopupPanel.popupPanel {
+  background-color: #2E3440;
+  border-color: #444444;
+}
+
+.GD15MCFCPFD {
+    border: none;
+    background-color: inherit;
+}
+
+/*Dropdown menus for the buttons on the home page ie not selects in settings*/
+.gwt-DecoratedPopupPanel.themedPopupPanel .popupMiddleCenter {
+  background-color: #2E3440 !important;
+  border-radius: 0px 0px 7px 7px !important;
+  border-color: #6A6E71 !important;
+}
+
+/*Separators in menus*/
+.menuSeparatorInner {
+  border-color: #6A6E71 !important;
+}
+
+/* The hovered menu item */
+.rstudio-themes-flat.rstudio-themes-dark-menus .gwt-MenuItem.gwt-MenuItem-selected, .rstudio-themes-flat.rstudio-themes-dark-menus .subMenuIcon-selected, .rstudio-themes-flat.rstudio-themes-dark-menus .gwt-SuggestBoxPopup .item-selected {
+  background: #3B4252 !important;
+}
+
+/*unchecked .gwt-CheckBox checkbox*/
+.macintosh input[type="checkbox"], .linux .gwt-CheckBox input[type="checkbox"], .windows-highdpi .gwt-CheckBox input[type="checkbox"], .rstudio-themes-flat input[type="checkbox"] {
+  background: #D8DEE9 !important;
+  border: none !important;
+}
+
+/*checked checkbox*/
+.macintosh input[type="checkbox"]:checked, .linux .gwt-CheckBox input[type="checkbox"]:checked, .windows-highdpi .gwt-CheckBox input[type="checkbox"]:checked, .rstudio-themes-flat input[type="checkbox"]:checked {
+  background: #88C0D0 !important;
+  border-color: rgb(33, 35, 36) !important;
+}
+
+/*Misc Borders*/
+.rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCH3C,.rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCH3C .GD15MCFCN2C, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCJDD td.GD15MCFCIDD,.rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCJDD td.GD15MCFCEDD,.rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCJDD td.GD15MCFCBED,.rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCJDD .GD15MCFCPCD, .rstudio-themes-flat .rstudio-themes-dark-grey .dataGridHeader, .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_minimizedWindowObject>div:last-child, .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_toolbarWrapper, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCKV.GD15MCFCPO div.GD15MCFCMO .GD15MCFCIS, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCKV.GD15MCFCPO {
+  border-color: #2E3440 !important;
+  border-bottom-color: #2E3440 !important;
+}
+
+/*Borders around panes*/
+.rstudio-themes-flat .rstudio-themes-dark-grey .rstudio-themes-border, .rstudio-themes-flat .rstudio-themes-dark-grey table.GGBOEFPDPQ>tbody>tr>td, .rstudio-themes-flat .rstudio-themes-dark-grey .GGBOEFPDNV>div:last-child, .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_secondaryToolbar, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanel>div>div.gwt-TabLayoutPanelTabs {
+  border-color: #4C566A !important;
+}
+
+/*table styles, meant to loosely mimic finder row style */
+.GD15MCFCMH tr:nth-child(even), td.GD15MCFCD4B.GD15MCFCF5B, tr.GD15MCFCJNB.GD15MCFCLNB {
+    background-color: #3B4252;
+    border-color: #3B4252;
+    color: #D8DEE9;
+}
+
+.GD15MCFCMH tr:nth-child(odd), td.GD15MCFCD4B.GD15MCFCF4B, tr.GD15MCFCJMB.GD15MCFCLNB {
+    background-color: #2E3440;
+    border-color: #2E3440;
+    color: #D8DEE9;
+}
+
+/*Update Packages Table column names:*/
+th.GD15MCFCK4B {
+    background: #3B4252;
+    border-color: #3B4252;
+    color: #D8DEE9;
+    border-left: none;
+    border-right: none;
+}
+
+/*update packages blank area*/
+.GD15MCFCC4B, .GD15MCFCEOB {
+    background: #3B4252;
+    border: #3B4252;
+}
+
+/*About R page text*/
+textarea.GD15MCFCFVC.GD15MCFCFVC-readonly {
+    background: #3B4252;
+    color: #ECEFF4;
+}
+
+/*help > markdown quick reference styles and help > roxygen quick reference styles*/
+#md_examples pre roxygen_examples pre {
+  background-color: #434C5E !important;
+  border: none;
+  color: #D8DEE9;
+}
+
+/*Most ui text*/
+.rstudio-themes-flat .rstudio-themes-dark .GGBOEFPDCS .gwt-TabLayoutPanelTab .gwt-Label {
+  color: #ECEFF4;
+}
+
+/*Options Dialog Box*/
+.rstudio-themes-flat .gwt-DialogBox {
+    border: solid 1px #434C5E;
+    border-radius: 5px;
+    background: #3B4252;
+    overflow: hidden !important;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.6);
+}
+
+/*Border around top buttons in options menu*/
+.GGBOEFPDGP .gwt-TabLayoutPanelTab {
+  border-color: #4C566A;
+}
+
+/*Border in the options menu*/
+.GGBOEFPDGP .gwt-TabLayoutPanelContentContainer {
+    border: 1px solid #3B4252;
+}
+
+/*Border around lefthand menu on options menu*/
+.GGBOEFPDGK {
+    background-color: #3B4252;
+    border: 1px solid #4C566A;
+}
+
+/*Remove default draggable spacers color*/
+.rstudio-themes-flat .rstudio-themes-dark-grey .gwt-SplitLayoutPanel-HDragger, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-SplitLayoutPanel-VDragger {
+  background: none !important;
+}
+
+/* color behind window panes and latter two appear as bg of git commit pane */
+div#rstudio_container, .gwt-SplitLayoutPanel-HDragger, .gwt-SplitLayoutPanel-VDragger {
+  background: #3B4252 !important;
+}
+
+/* actual checkMARK */
+.macintosh .gwt-CheckBox input[type="checkbox"]:checked:before, .linux .gwt-CheckBox input[type="checkbox"]:checked:before, .windows-highdpi .gwt-CheckBox input[type="checkbox"]:checked:before, .rstudio-themes-flat input[type="checkbox"]:checked:before {
+  filter: invert(100%);
+}
+
+table.GD15MCFCBMB {
+  color: #2E3440;
+}
+
+/* active tabs*/
+.rstudio-themes-flat .rstudio-themes-dark-grey .rstudio-themes-background, .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_toolbarWrapper, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTab-selected table.rstheme_tabLayoutCenter, .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_secondaryToolbar, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCKV.GD15MCFCPO div.GD15MCFCMO .GD15MCFCIS, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelContent, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanel, .GD15MCFCCTC, .rstheme_toolbarWrapper table.GD15MCFCJU  {
+  background: #3B4252 !important;
+  color: #D8DEE9 !important;
+}
+
+/*button labels in Git commit page*/
+.GD15MCFCMU {
+  color: #D8DEE9;
+}
+
+.GGBOEFPDGK {
+  background: #3B4252 !important;
+}
+
+.rstudio-themes-flat .gwt-TabLayoutPanelTabs table.rstheme_tabLayoutCenter, .rstudio-themes-flat .rstheme_minimizedWindowObject table.rstheme_tabLayoutCenter {
+  border-radius: 0px;
+}
+
+/*More buttons in the options menu*/
+.rstudio-themes-flat button.gwt-Button-DialogAction>table:first-child, .rstudio-themes-flat button.GGBOEFPDN1>table:first-child {
+    border: solid 1px #2E3440;
+    border-radius: 7px;
+    background: #3B4252;
+    color: #D8DEE9;
+}
+
+.gwt-Button {
+    background: linear-gradient(0deg, #3b4252 0%, #434c5e 100%) !important;
+    color: black;
+}
+
+/*empty tab space*/
+.rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs, .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_minimizedWindowObject .rstheme_center, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-track, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-corner, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-track, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-corner, .rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars ::-webkit-scrollbar-track, .rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars ::-webkit-scrollbar-corner {
+  background: rgba(35, 38, 41);
+  color: #D8DEE9;
+}
+
+/*create project from working directory background*/
+.GD15MCFCB3 {
+  background: #3B4252 !important;
+}
+
+img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAAWklEQVR42mNgQAJqamrSDOQCJVWNYCBeoqCiaUGeZjXNZWBMqiHKyjqyIE1wA8gxREVFw3LUEOIMAYmPGkIDQ+hjAEVeGNVMYmYaopqpUqhSVKxTpWKhpGoDAHh2oe84qb4DAAAAAElFTkSuQmCC"] {
+  filter: invert(100%);
+}
+
+.GD15MCFCN- img {
+  filter: brightness(.26) saturate(2);
+}
+
+/*window resize buttons in top right of each pane*/
+.GD15MCFCCS.rstheme_multiPodUtilityTabArea {
+    background: #434C5E !important;
+}
+
+
+/* editor color */
+.ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
+  background-color: #2E3440;
+  color: #D8DEE9;
+}
+
+.ace_cursor {
+  opacity: 1 !important;
+  border-left: 1px solid !important;
+}
+
+/* Search panes */
+.rstudio-themes-flat.rstudio-themes-dark-menus .search, .rstudio-themes-flat .rstudio-themes-dark .search, .dialogMiddleCenter .search, input {
+    border-radius: 4px;
+    background: #4C566A;
+    border-color: #434C5E;
+}
+
+/*seach bar in git commit no idea why its three separate images*/
+.GD15MCFCCTC .search .GD15MCFCLS, .GD15MCFCCTC .search .rstheme_center, .GD15MCFCCTC .search .GD15MCFCAR {
+    filter: invert(75%);
+}
+
+/* Search panes placeholder text */
+.rstudio-themes-flat.rstudio-themes-dark-menus .search input::placeholder, .rstudio-themes-flat .rstudio-themes-dark .search input::placeholder, .dialogMiddleCenter .search input::placeholder {
+  color: #E5E9F0
+}
+
+/* Search pane on focus*/
+.rstudio-themes-flat.rstudio-themes-dark-menus .search:focus-within, .rstudio-themes-flat .rstudio-themes-dark .search:focus-within {
+    border-radius: 4px;
+    background: #3B4252;
+    border-color: #88C0D0;
+}
+
+.ace_gutter-active-line {
+  background-color: #2A2E32;
+  color: #D8DEE9 !important;
+}
+
+.ace_gutter-cell.ace_breakpoint {
+  color: #ECEFF4;
+}
+
+/* Remove Rstudios red dot breakpoint icon */
+.ace_gutter-cell.ace_breakpoint, .ace_gutter-cell.ace_inactive-breakpoint {
+  background-size: 0px 0px; !important;
+}
+
+/* Blue ribbon meant to mimic Xcode breakpoint */
+.ace_gutter-cell.ace_breakpoint:after {
+  visibility: visible;
+  width: 95%;
+  height: 17px;
+  position: absolute;
+  left: 0%;
+  height: inherit;
+  content: ' ';
+  float: right;
+  background: rgba(61, 174, 233);
+  clip-path: polygon(0 5%, 90% 5%, 100% 45%, 90% 85%, 0 85%);
+  z-index: -1;
+}
+
+
+/* Inactive breakpoint ribbon (same as other but a bit more translucent) */
+.ace_gutter-cell.ace_inactive-breakpoint:after {
+  visibility: visible;
+  width: 95%;
+  height: 17px;
+  position: absolute;
+  left: 0%;
+  height: inherit;
+  content: ' ';
+  float: right;
+  background: rgba(61, 174, 233, .5);
+  clip-path: polygon(0 5%, 90% 5%, 100% 45%, 90% 85%, 0 85%);
+  z-index: -1;
+}
+
+.body {
+  font-family: "Menlo" !important;
+}
+
+.ace_fold {
+  background-color: #D8DEE9;
+  border-color: #4C566A;
+}
+
+.ace_invisible {
+  color: #3B4252;
+}
+
+/* caption at the top of the dialog boxes like the options pane*/
+.Caption {
+  color: #D8DEE9 !important;
+  font-size: 9pt !important;
+  padding: 4pt !important;
+  text-align: center;
+}
+
+/*top of the settings dialog, where OPTIONS is written*/
+.dialogTopCenter {
+  background: #3B4252 !important;
+  border-bottom: 1px solid #434C5E !important;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey .dataGridHeader {
+  background: #434C5E
+}
+
+/*Review Changes Dialog for Git Commit*/
+.GD15MCFCDTC, .GD15MCFCASC {
+  background: #2E3440;
+  color: #ECEFF4;
+}
+
+.GD15MCFCPSC {
+  background: #2E3440;
+  color: #ECEFF4;
+}
+
+/*Git top left buttons*/
+table.GD15MCFCJW.GD15MCFCLW td, table.GD15MCFCJW.GD15MCFCOW {
+  color: black;
+  filter: invert(85%) !important;
+}
+
+/*RMarkdown new file menu*/
+.GGBOEFPDK2 {
+    background-color: #3B4252;
+    border: 1px solid #4C566A;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.GGBOEFPDP2C {
+    margin-top: 3px;
+    margin-left: 5px;
+    color: #E5E9F0;
+}
+.GGBOEFPDL2 {
+    background-color: #2E3440;
+}
+/*checkboxes in GitHub pane*/
+img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABzElEQVR42u2Wy07CQBhGeRl3iF2Bz+DaRE0UNsYn0Z2vIE+hxLglMZq4IwYpV4G23JGrLS7GOTWsDEzbNMZFJ/l3c843l6bzx2L/aWhaaiehJTPxRPIysZe6DlIuKx24PIXuaqmDw+Ozm9u7e71QeHVKpbIIUrA4cOFU7vToJJOVkK3rFVEu/1SlUvVVaw4HLpxbd87R5HIPOlC1WhO1Wl3U6w23Go13T7WeD4sDF07cG4O5l2LxzQFC0my2RKvVFu22Icv0WIbLwOLAJZ2ruLZ/tXnH8qNgtUBITLMjOp2e6Hb7otcbeCrmwsDiwIUT99ZgJhqG5cL9/lAMh2MxGn2I8XjiqZgLA4sDF05lMKsEGAxGrmgymYnpdC5ms4WnYi4MLA5cOJXBHBGrBUQyny/FYvEplkvbUzEXBhYHLpzKYFbIUbFqBMhse+WrYGBx4MKpDObj4J5YMatH5DhfvgoGFgcunMpgvkyOiPta7zZIMCwOXDij4Cg4Cv6bYJ5F+V91wg42TUvxLMrHOp9/1MMOxrm1EaA9SacvspbVtcP6ZeLCqWz6aMxO0+fZp+cXdu4EfSRgceBSNnu/2lt5L4HbW1g/7W00ohHW+AYpkWmxvX/prAAAAABJRU5ErkJggg=="] {
+  filter: invert(85%) !important;
+}
+
+img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAEg0lEQVR42rWX709bZRTHL+0ttPcHLaWlUGAo2xCcZBPLpT9oewvr2lD1hcYfM+oL4huTaZA44ohbeON/sZf60pAt0QWcvtBka4BtMVkklFJaKMighTF+rNPkXp9zeS67Y6XcNrPJt23S55zPOc9z7nNOCWL/9YbO3tJiMdceO0Wb7UFDpe28nrX261jLZzrW3K9K1J70yIY12/urbI3na46dDJ549fSp+tbWagTREQdeZTabjW5re73J2X2W9/iDw13u3lHOxUcdXb4ppEkHh9R1iLgDQjZdrkDU7T076g2Ehh3I58vIt91up4C1D4VIDIbqeoB++HH/1YGBofj4+K+5WGxWSCZT4lGan09KSiTmxbm5hDg7Gxfv358WbtwYz1348ut45O0Prp5xdPPAUGatQTKUlzOv+XrC3wxduhxHxkI6vSSm08sqtSQuLqbFhYVFKRAIIB6fE2MxCOAv4fMLg3Gnp3eYpqvaEYvCTEKLVEmQBpfLF/zx9z9uPV5ZWRUfPFgTV1czqgRrwWZ5eUUKBAKAHZDhP/08lvN4g9dM1jofQZhMctbwVkWSeh5FdXtp6W8hm90Q19cfihsbm6oEa8FmbS0rBYB8SHDIXN52tzc4Udd4IsQwjBXx9AAuRzIjcA/n6pkCR5ubW+KjR9vi1taOKsFasAHbTGZdNFwckzJPpRakM4esPb5z9xqa2/poq7WWQIW8DyZIfYBzBSbByfb2rriz81jc3c2pEqwFG7AFKAi2XZm1xx+629TcFqEsFjthsbAArlCCwQE4y+X+KUpgI0NBsOVQcHDWT8EnI3uVba58DgzRg6MnT/4tSkooCAoOql0uMgDXN8lg4llwJwLL2SodFgsFQbXDOcPj9TzYrA5cCJ4PCkX2wsD54PmgUOUvHKyE54OC7f8GPkxyZZcE5vKA1cBhTXHgA1XNufODC8Hl348Ce/lCGRcAFzpvNWAfH5Zurrxg1PwLggs9XmoyPgzcg7rT1FHgw3R0xqF7sNUURdkR7+ldTeqZgMsbjCIjoVQwXLfQKKBNKq/M6ekZwesLTljrXgoTBF2LeLQMriL1bDff2zd65+6fuVKbBDQYaI/Qm5VNYmzsZs7nD19nTBY/Yllg4pHbIkvTpjOhyLtXLl/5LpnNPhRKbYuwzTAQyG1xZiYmDF78NoXGqhGKMnbgRwmSJUiIwGisafb4wn3vvP/J918NXkrduj2Zy2Q2hFIGAcg2kUgKv9z8LffFwFDqvY8+/QFNnBGj0Xgcz1w6eeYqZ5haa0Nza3vrae5Nzs2PdDr91zo4bxTG1Y5O70QxkkZcpy+KJprraHId6XD630Ku24GBsyVlMPpiZWiatlWwbAvaEgfDmHjaaA7SleaQ9KlGtHFP2IYxmXjKaHSwrOUVuqbGRlitDM5WK4+3GnzWBnwGMPVD9cH11ojUgD/VSF5bj31UY58GzNDK420ZFs5c+rECnwWNnzkWG6uRvJ7GPiqwTxIzypT/JpQBaBSBaPHWlCKtAqTJB8wH1igMSSy1QFKRnVbh7xnwf9zVX4gKU481AAAAAElFTkSuQmCC"] {
+  filter: invert(85%) grayscale(100%) !important;
+}
+
+img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAUCAYAAACnOeyiAAAAXklEQVR42mNgAIL///8zMYSGhjIDGYIMIiIMvECGMwMDN4M4kFEDUqIIZKwDMdSBjAsghj6Q8QPEMAAy/lOBoQekv4AYKkDGfgZeXl4RICOLQUtLiw3IUAJJMQIZ7AC2tU2tXJxOYgAAAABJRU5ErkJggg=="] {
+  filter: invert(100%)
+}
+
+label[for="gwt-uid-54"]{
+  color: #ECEFF4;
+}
+
+/*Addins and workspace dropdown menu*/
+.popupMiddleCenterInner.popupContent {
+  background-color: #2E3440;
+  color: #ECEFF4;
+  border-radius: 3px 3px 3px 3px !important;
+}
+
+.gwt-MenuBar>table {
+    padding: 5px;
+    border-radius: 3px 3px 3px 3px !important;
+}
+
+.gwt-MenuBar>table>img {
+    visibility: hidden !important;
+}
+
+.popupTop, .popupMiddleRight, .popupBottom, .popupMiddleLeft {
+  visibility: hidden;
+}
+
+.gwt-MenuItem-selected, .subMenuIcon-selected, .gwt-SuggestBoxPopup .item-selected {
+  background: #434C5E !important;
+}
+
+.GD15MCFCEMC:focus .GD15MCFCPLC {
+  background: #434C5E !important;
+}
+
+/*table head at git*/
+.GD15MCFCDTC thead th, .GD15MCFCASC thead th, .GD15MCFCEMC thead th {
+    color: #ECEFF4;
+    border: none !important;
+    border-top: #3B4252 !important;
+    border-bottom: #3B4252;
+    background: #434C5E !important;
+    outline: none;
+}
+
+tr.GD15MCFCPLC {
+    background-color: #3B4252
+}
+
+/*table at Git*/
+td.GD15MCFCHNC.GD15MCFCJNC, .GD15MCFCJOC {
+  border: none !important;
+  border-bottom: 1px #4C566A !important;
+}
+
+.GD15MCFCFTC.GD15MCFCAW, .GD15MCFCMTC {
+  background: #434C5E;
+  border: 1px solid #3B4252;
+  border-radius: 0px;
+  color: #ECEFF4;
+}
+
+/* addition text*/
+.GD15MCFCGPC {
+  color: #E5E9F0;
+  background-color: #3B4252;
+}
+
+.GD15MCFCGE:focus .GD15MCFCBE .GD15MCFCFSC {
+  color: #ECEFF4;
+  background-color: #3B4252;
+}
+
+
+.GD15MCFCKED {
+  border: 1px solid #434C5E;
+}
+
+.GD15MCFCGPC.GD15MCFCNPC>td, .GD15MCFCCPC.GD15MCFCNPC>td {
+  border-top: none !important;
+}
+
+.GD15MCFCCPC.GD15MCFCDPC>td, .GD15MCFCGPC.GD15MCFCDPC>td {
+  border-bottom: none !important;
+}
+
+/* deletion text */
+.GD15MCFCCPC {
+  color: #BF616A;
+  background-color: #3B4252
+}
+
+/* selected addition slash deletion which was clicked away from */
+.GD15MCFCKOC, .GD15MCFCLOC, .GD15MCFCBE {
+  color: #ECEFF4;
+  background-color: #3B4252 !important;
+}
+
+/* selected addition slash deletion */
+.GD15MCFCPOC:focus .GD15MCFCKOC, .GD15MCFCPOC:focus .GD15MCFCLOC, .GD15MCFCGE:focus .GD15MCFCBE {
+  background-color: #88C0D0 !important;
+}
+
+/* spacer between additions and deletions describing it */
+.GD15MCFCBPC {
+  background-color: #434C5E !important;
+}
+
+/* stage buttons */
+.GD15MCFCKMC {
+  color: black !important;
+}
+
+.GD15MCFCKMC div {
+  filter: grayscale(1) invert(100%) brightness(90%);
+}
+
+.gwt-DialogBox.gwt-DialogBox-ModalDialog.GD15MCFCO- td.dialogMiddleLeft, .gwt-DialogBox.gwt-DialogBox-ModalDialog.GD15MCFCO- td.dialogMiddleRight, .gwt-DialogBox.gwt-DialogBox-ModalDialog.GD15MCFCO- tr.dialogBottom {
+  filter: invert(80%)
+}
+
+table.GD15MCFCPOC.GD15MCFCAW.GD15MCFCMPC button.gwt-Button.GD15MCFCH1.gwt-Button-DefaultDialogAction td {
+  filter: invert(85%)
+}
+
+/* commit button*/
+button.gwt-Button.GD15MCFCH1.GD15MCFCETC {
+    filter: invert(90%);
+}
+
+/*Options menu pane*/
+.dialogMiddleCenter {
+  background: #434C5E !important;
+  color: #ECEFF4;
+}
+
+.rstudio-themes-flat.editor_dark .ace_editor_theme .GD15MCFCGI {
+    color: #ECEFF4;
+}
+
+/*Dropdown menus in options menu*/
+select {
+    font-size: 11px;
+    text-indent: 0.1em;
+    background-color: #3B4252 !important;
+    color: #ECEFF4;
+    border: none !important;
+}
+
+/*Panes boxes in options menu*/
+.GGBOEFPDMNB td.GGBOEFPDMNB {
+background-color: #3B4252
+}
+
+/*various text-type fields in options*/
+table.GD15MCFCI2.GD15MCFCF2, select.gwt-ListBox.GD15MCFCNCB, .gwt-TextBox, input.gwt-TextBox.gwt-TextBox-readonly, .GD15MCFCFGD, .GD15MCFCNND, .GD15MCFCIMD, .GD15MCFCDND, .GD15MCFCAK.GD15MCFCOJ .gwt-Textbox, .gwt-DialogBox input[type="text"], select.gwt-ListBox.GD15MCFCBBB, .GD15MCFCHHB {
+  background: #3B4252 !important;
+  border: none;
+  border-radius: 3px;
+  color: #ECEFF4;
+}
+
+/*Buttons in options*/
+.GGBOEFPDGP .gwt-TabLayoutPanelTab {
+  background: #3B4252
+}
+
+/*Selected button in options*/
+.GGBOEFPDGP .gwt-TabLayoutPanelTab-selected {
+  background: #2E3440
+}
+
+.GGBOEFPDGP .gwt-TabLayoutPanelContentContainer {
+  #border: #3B4252
+}
+
+/*sidebar of options dialog*/
+.GD15MCFCGK, .GD15MCFCI2 {
+  background: #3B4252 !important;
+  border-color: #4C566A !important;
+}
+
+.GGBOEFPDLJ{
+  background: #2E3440
+}
+
+/*selected sidebar*/
+table.GD15MCFCFK.GD15MCFCLJ, .GD15MCFCJ2.GD15MCFCNQ.GD15MCFCE2 {
+  background: #2E3440 !important;
+  color: #ECEFF4 !important;
+}
+
+/*markdown creation pane info caption*/
+.GD15MCFCP0C {
+  color: #ECEFF4;
+}
+
+/*Import Data Options*/
+.GD15MCFCNMD {
+  background: #434C5E;
+  border: 1px solid #3B4252;
+  border-radius: 3px;
+}
+
+/*Background for most of the options windows*/
+.GD15MCFCGP .gwt-TabLayoutPanelContentContainer, .GD15MCFCOID, .GD15MCFCNLD {
+    background: #434C5E !important;
+    border: 1px solid #3B4252;
+    border-radius: 3px;
+}
+
+.GGBOEFPDLJ{
+  background: #2E3440
+}
+
+.GD15MCFCEPC {
+  background: #434C5E;
+  color: #ECEFF4;
+}
+
+/*selected button at top of options dialog*/
+.gwt-TabLayoutPanelTab.GD15MCFCH.gwt-TabLayoutPanelTab-selected, table.GD15MCFCJW.GD15MCFCLW {
+    background: #2E3440 !important;
+    color: #ECEFF4 !important;
+    border-color: #4C566A !important;
+}
+
+.gwt-TabLayoutPanelTab.GD15MCFCH.gwt-TabLayoutPanelTab-selected .gwt-Label {
+    color: #ECEFF4 !important;
+}
+
+/* unselected buttons at top of dialog*/
+div.gwt-TabLayoutPanelTab.GD15MCFCH {
+  background: #3B4252; !important;
+  color: #E5E9FO !important;
+  border-color: #4C566A !important;
+}
+
+div.gwt-TabLayoutPanelTab.GD15MCFCH:hover {
+  background: #434C5E;
+  color: #D8DEE9 !important;
+  border-color: #4C566A !important;
+}
+
+div.gwt-TabLayoutPanelTab.GD15MCFCH .gwt-Label {
+  color: #E5E9F0 !important;
+}
+
+/*Buttons in the options pane*/
+.rstudio-themes-flat button.gwt-Button-DialogAction>table:first-child, .rstudio-themes-flat button.GD15MCFCB1>table:first-child, .rstudio-themes-flat button.GD15MCFCH1>table:first-child, button.GD15MCFCB1 table tbody {
+    border-radius: 3px !important;
+    background: #3B4252 !important;
+    color: #ECEFF4 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+iframe.gwt-Frame {
+    border: none;
+}
+
+.GD15MCFCO0 {
+    color: #ECEFF4 !important;
+}
+
+/*Background in the pane layout window*/
+.GD15MCFCBMB td.GD15MCFCBMB {
+  background: #434C5E;
+  border: 1px solid #3B4252;
+  color: #ECEFF4;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.GD15MCFCFK.gwt-Label, .gwt-TabLayoutPanelContentContainer td {
+  color: #ECEFF4 !important;
+}
+
+/*hyperlinks at the bottom of some of the settings and in R Help and file links in commit page */
+.rstudio-HyperlinkLabel, gwt-Anchor {
+  color: #88C0D0 !important
+}
+
+a.gwt-Anchor.GD15MCFCNQ {
+  color: #ECEFF4 !important;
+}
+
+div .gwt-Label.GD15MCFCF3 {
+  color: #ECEFF4 !important;
+}
+
+.gwt-Button {
+  /* background: linear-gradient(0deg, rgba(201,201,201,1) 0%, rgba(209,210,210,1) 100%) !important; */
+  color: black;
+}
+
+.GD15MCFCAK {
+  color: #ECEFF4 !important
+}
+
+/* function, if, else, stop */
+.ace_keyword {
+  color: #81A1C1;
+}
+
+/* (, ), =, +, - */
+.ace_keyword.ace_operator {
+  color: #81A1C1;
+}
+
+.dialogContent {
+  color: #ECEFF4 !important;
+}
+
+/* Logical, ie TRUE, FALSE */
+.ace_constant.ace_language {
+  color: #8FBCBB;
+}
+
+/* Numeric */
+.ace_constant.ace_numeric {
+  color: #B48EAD;
+}
+
+/* ??? */
+.ace_constant.ace_character {
+  color: #D8DEE9;
+}
+
+/* color and style in MD */
+.ace_heading {
+     color: #5E81AC;
+}
+
+/* color and style of meta tags in MD */
+.ace_meta.ace_tag {
+  color: #88C0D0;
+}
+
+.ace_constant.ace_other {
+  color: #EBCB8B;
+}
+
+/* ??? */
+.ace_support.ace_type {
+  color: #EBCB8B;
+}
+
+.ace_support.ace_function {
+  color: #88C0D0;
+}
+
+.ace_storage {
+  color: #5E81AC;
+}
+
+.ace_invalid {
+  color: #ECEFF4;
+  background-color: #BF616A;
+
+}
+
+.ace_invalid.ace_deprecated {
+  color: #ECEFF4;
+  background-color: #BF616A;
+}
+
+/* string */
+.ace_string {
+  color: #A3BE8C;
+}
+
+/* Comments */
+.ace_comment {
+  color: #4C566A;
+}
+
+/* ??? */
+.ace_variable {
+  color: #8FBCBB;
+}
+
+/* ??? */
+.ace_variable.ace_parameter {
+  color: #D08770;
+}
+
+.nocolor.ace_editor .ace_line span {
+  color: #ECEFF4 !important;
+}
+
+.ace_console_error {
+  background-color: #2E3440;
+  color: #BF616A
+}
+
+.terminal {
+  background-color: #2E3440;
+  color: #E5E9F0;
+  font-feature-settings: "liga" 0;
+  position: relative;
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+.terminal.xterm-cursor-style-block.focus:not(.xterm-cursor-blink-on) .terminal-cursor {
+  background-color: #D8DEE9;
+  color: #3B4252;
+}
+.terminal.focus.xterm-cursor-style-bar:not(.xterm-cursor-blink-on) .terminal-cursor::before,
+.terminal.focus.xterm-cursor-style-underline:not(.xterm-cursor-blink-on) .terminal-cursor::before {
+  content: '';
+  position: absolute;
+  background-color: #D8DEE9;
+}
+.terminal:not(.focus) .terminal-cursor {
+  outline: 1px solid #D8DEE9;
+  outline-offset: -1px;
+}
+.terminal .xterm-selection div {
+   position: absolute;
+   background-color: #D8DEE9;
+}
+.terminal .xterm-viewport {
+  background-color: #2E3440;
+  overflow-y: scroll;
+}
+
+
+.rstudio-themes-flat.editor_dark.ace_editor_theme a {
+   color: #ECEFF4 !important;
+}
+
+.ace_layer {
+   z-index: 3;
+}
+
+.ace_layer.ace_print-margin-layer {
+   z-index: 2;
+}
+
+.ace_layer.ace_marker-layer {
+   z-index: 1;
+}
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete {
+   background: #3B4252;
+   /* border: solid 1px #4C566A !important; */
+   border: solid 1px #4C566A !important;
+   color: #ECEFF4;
+}
+
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line,
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_line-hover {
+   background: #D8DEE9;
+   border: none
+}
+
+.ace_active-line {
+  background: #434C5E;
+}
+
+/* Background for debug location warning banner */
+.GD15MCFCB2C, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCB2C {
+  background-color: #EBCB8B !important;
+}
+
+.GD15MCFCGMC, .GD15MCFCB2C {
+  border-bottom: none;
+}
+
+.GD15MCFCB2C .GD15MCFCA2C {
+  color: #ECEFF4;
+}
+
+img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAYAAAAAwr0iAAABhElEQVR42u1Xu07DMBTtl/D6HCAOG4+fqBADbI4FEztfgKAjI4ldFiQWBhh5iAXaBQaGVkKlkJh7Y1UUROrr1FGF1CtdKWqSc45zn63VpuZgy1zNhFzthJFKWCRbLFI98C74DeMqxnvBbjJfCTEQHIN/Apm2eIrP4jteyBmXDAA7BOLf3g2EXB+PXMh6fqI/COoHF7r13NFoJ+cPRSKyUKjNUuShaK4iQNEJkXTYRnyJDLHcY26SqxB4v3Gl33ofOfn1/Ys1HE45EUTqiBJnDAMKoeWEbJDIF/fOZoviPqaniG0/vZDbNrDD5FbfPb3+cIoIxCaUnYopYPLykZqE3w7YFAFtCphDFQwLaNsFmPZajYBIvf8DAZMOgZl0lQmIvZRhWQGkMlzhp3OURlRCQIrYtCkIbdO/AGIrpgwj7ISDQTQwHEg4G7wMI/MVmmujxrGDZ4jlfSEhkwu5NbGVDEp6w99SahIzJS2l8Ky3pbRwLTcds587XONveG+Jq4XpHxgX+wK4hvG+aF4/hAAAAABJRU5ErkJggg=="] {
+  filter: grayscale(1) contrast(9);
+}
+
+
+
+
+
+/*borders in save current workspace*/
+.GD15MCFCKMB, .GD15MCFCBNB, .GD15MCFCMNB, .GD15MCFCENB, .GD15MCFCCNB {
+    border: 2px solid #434C5E !important;
+}
+
+/*Borders around windows and buttons of main screen*/
+
+
+
+/* Editor outline! */
+.rstudio-themes-flat .rstudio-themes-dark-grey .rstudio-themes-border, .rstudio-themes-flat .rstudio-themes-dark-grey table.GD15MCFCOQ>tbody>tr>td, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCKV>div:last-child, .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_secondaryToolbar, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanel>div>div.gwt-TabLayoutPanelTabs, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs table.rstheme_tabLayoutCenter, .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_minimizedWindowObject table.rstheme_tabLayoutCenter {
+  border-color: #4C566A
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey td.GD15MCFCHXB, .rstudio-themes-flat .rstudio-themes-dark-grey td.GD15MCFCFXB, .rstudio-themes-flat .rstudio-themes-dark-grey td.GD15MCFCLXB, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCEXB, .rstudio-themes-flat .rstudio-themes-dark-grey .GD15MCFCAXB {
+  border: none;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey .GGBOEFPDK5C, .rstudio-themes-flat .rstudio-themes-dark-grey .GGBOEFPDK5C .GGBOEFPDA5C {
+    border-color: #4C566A;
+}
+
+
+/* New Project Styles*/
+.GD15MCFCD3 {
+    background: #434C5E !important;
+    outline: 1px solid #3B4252 !important;
+    color: #ECEFF4;
+}
+
+.GD15MCFCD3:hover, .GD15MCFCD3:hover .GD15MCFCO2 {
+  background: #3B4252 !important;
+  color: #ECEFF4 !important;
+}
+
+.GD15MCFCOMC div {
+  background: #434C5E;
+}
+
+/*back arrow in new project pane an image so it can't be styled that easily.*/
+.GD15MCFCP2 {
+    color: black !important;
+}
+
+/* Brackets */
+span.ace_paren.ace_keyword.ace_operator {
+  color: #D8DEE9 !important;
+}
+
+
+/*autofill menu descriptions*/
+.GD15MCFCEVB {
+  background-color: #434C5E !important;
+  color: #ECEFF4 !important;
+  box-shadow: -1px 1px 5px black;
+}
+
+.rstudio-themes-flat.rstudio-themes-dark-menus .GD15MCFCEVB, .rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars.GD15MCFCEVB ::-webkit-scrollbar-thumb {
+  background-color: #2E3440 !important;
+  border-color: #434C5E !important;
+  box-shadow: -1px 1px 5px black;
+  border-radius: 1px !important;
+  color: #ECEFF4 !important;
+}
+
+.GD15MCFCJRC {
+  background: #434C5E;
+  color: #ECEFF4;
+}
+
+.GD15MCFCFSC, .GD15MCFCISC {
+  background: #3B4252;
+  color: #3B4252;
+}
+
+/* file hierarchy in files tab */
+.GD15MCFCJI-filepane a.gwt-Anchor.GD15MCFCNQ {
+  color: #ECEFF4 !important;
+}
+
+/* file hierarchy in files tab */
+.GD15MCFCJI-filepane a.gwt-Anchor.GD15MCFCNQ:hover {
+  text-decoration: underline;
+}
+
+.GD15MCFCGSC {
+  background-color: #4C566A;
+  color: #ECEFF4;
+}
+
+.GD15MCFCGE:focus .GD15MCFCBE .GD15MCFCGSC {
+  background-color: #4C566A;
+  color: #ECEFF4;
+  border: 1px solid #ECEFF4;
+}
+
+.rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars.GD15MCFCEVB ::-webkit-scrollbar-thumb {
+  background: #434C5E;
+}
+
+/* Scrollbar */
+.rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs,
+.rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_minimizedWindowObject .rstheme_center,
+.rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-track,
+.rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-corner,
+.rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-track,
+.rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-corner,
+.rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars ::-webkit-scrollbar-track,
+.rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars ::-webkit-scrollbar-corner {
+  background: #2E3440;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-thumb,
+.rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-thumb,
+.rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars ::-webkit-scrollbar-thumb {
+  background: #2E3440;
+  border: 4px solid #3B4252;
+}
+
+.rstudio-themes-flat.rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-thumb, .rstudio-themes-flat.rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    background: #D8DEE9;
+    border: solid 4px #2E3440;
+}
+
+rstudio-themes-flat.rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-track, .rstudio-themes-flat.rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-track, .rstudio-themes-flat.rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-corner, .rstudio-themes-flat.rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-corner {
+    background: #434C5E;
+}
+
+/* hacky toolbars section */
+.rstudio-themes-flat .rstudio-themes-dark-grey div.windowframe > div:last-child > div > div > div > div > div:not(.gwt-TabLayoutPanelTabs) {
+  background: #2E3440 !important;
+}
+
+/* Data Frame Preview */
+.dataTables_wrapper thead th {
+  background: #2E3440 !important;
+  color: #ECEFF4 !important;
+  border-color: #4C566A !important;
+}
+
+.dataTables_scrollBody table tbody td:first-child {
+  background: #2E3440 !important;
+  color: #ECEFF4 !important;
+  border-color: #4C566A !important;
+}
+
+.dataTables_info {
+  background: #2E3440 !important;
+  color: #ECEFF4 !important;
+  border-color: #4C566A !important;
+}
+
+/*data preview table borders*/
+.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead th, .rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead td, .rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable tbody td {
+  border-color: #4C566A;
+}
+
+/* inactive tabs */
+table.rstheme_tabLayoutCenter, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs, .rstheme_multiPodUtilityTabArea {
+  background: #2E3440 !important;
+}
+
+table.rstheme_tabLayoutCenter .gwt-Label, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs .gwt-Label, .rstheme_multiPodUtilityTabArea .gwt-Label {
+  color: #ECEFF4;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey .GGBOEFPDK5C .GGBOEFPDA5C {
+  border-color: #4C566A;
+}
