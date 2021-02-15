@@ -16,3 +16,8 @@ To install, run the following in your RStudio console:
 ```
 rstudioapi::addTheme("https://raw.githubusercontent.com/lusignan/nord-rstudio/master/Nord.rstheme", apply=TRUE, force=TRUE)
 ```
+
+If the above command fails, first run:
+```
+install.packages("rstudioapi")
+```
