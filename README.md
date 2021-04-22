@@ -8,7 +8,9 @@ This theme is an unofficial port of [Arctic Ice Studio](https://github.com/arcti
 </figure>
 
 # Installation
-To install, run the following in your RStudio console:
+To install, download the folder, unzip, and open RStudio. From RStudio click Preferences, Appearance, Add, and then navigate to the rstheme for the theme that you'd like to install. Click apply.
+
+If you're comfortable installing from the console and have [Devtools](https://github.com/r-lib/devtools) installed then you can copy and run the following in your console:
 ```
 rstudioapi::addTheme("https://raw.githubusercontent.com/lusignan/nord-rstudio/master/Nord.rstheme", apply=TRUE, force=TRUE)
 ```
